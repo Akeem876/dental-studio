@@ -7,19 +7,19 @@ const Testimonials = () => {
       id: 1,
       content: "Our trip to the Maldives was nothing short of magical. The attention to detail, from our private villa to the personalized excursions, was impeccable.",
       author: "Sarah L.",
-      image: "/images/testimonial1.jpg"
+      image: "/sara.jpg"
     },
     {
       id: 2,
       content: "The safari experience LxTour arranged for us exceeded all expectations. The accommodations were luxurious, and the guides were exceptionally knowledgeable.",
       author: "James M.",
-      image: "/images/testimonial2.jpg"
+      image: "/james.jpg"
     },
     {
       id: 3,
       content: "From the moment we landed in Santorini, everything was taken care of. The private yacht tour around the caldera was the highlight of our trip.",
       author: "Emma R.",
-      image: "/images/testimonial3.jpg"
+      image: "/emma.jpg"
     }
   ];
 
@@ -32,7 +32,7 @@ const Testimonials = () => {
       <div className="grid md:grid-cols-2 gap-8">
         <div className="relative rounded-lg overflow-hidden">
           <img 
-            src={activeTestimonial.image || '/images/maldives.jpg'} 
+            src={activeTestimonial.image || '/sara.jpg'} 
             alt="Testimonial location" 
             className="w-full h-full object-cover aspect-square"
           />

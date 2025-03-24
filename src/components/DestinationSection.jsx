@@ -4,29 +4,29 @@ import React, { useState } from 'react';
 const DestinationsSection = () => {
   const destinations = [
     { 
-      id: 'santorini', 
-      name: 'Santorini, Greece', 
+      id: 'whitening', 
+      name: 'Teeth Whitening', 
       image: '/images/santorini.jpg',
       featured: true 
     },
     { 
-      id: 'bali', 
-      name: 'Bali, Indonesia', 
+      id: 'preventative', 
+      name: 'Preventative Dentistry', 
       image: '/images/bali.jpg'
     },
     { 
-      id: 'african-safari', 
-      name: 'African Safari', 
+      id: 'pediatric', 
+      name: 'Pediatric Dentistry', 
       image: '/images/safari.jpg'
     },
     { 
-      id: 'maldives', 
-      name: 'Maldives Islands', 
+      id: 'restoritive', 
+      name: 'Restorative Dentistry', 
       image: '/images/maldives.jpg'
     },
     { 
-      id: 'amalfi', 
-      name: 'Amalfi Coast', 
+      id: 'cosmetic', 
+      name: 'Cosmetic Dentistry', 
       image: '/images/amalfi.jpg'
     }
   ];
@@ -36,7 +36,7 @@ const DestinationsSection = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="px-6 sm:px-12 lg:px-16 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-12">Destinations You'll Love</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-12">Our Services</h2>
         
         <div className="relative bg-white rounded-xl shadow-lg p-6 mb-12 overflow-hidden">
           <div className="relative aspect-video overflow-hidden rounded-lg mb-4">

@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import logoLight from "../assets/logo-light.jpg";
+import logoLight from "../assets/blue-logo.jpg";
 
 const Footer = () => {
   return (
@@ -11,9 +11,8 @@ const Footer = () => {
           <h2 className="text-2xl font-bold mb-6">Get In Touch</h2>
           <div className="flex justify-center items-center">
             <p className="text-white max-w-2xl text-center">
-              We create personalized travel experiences for discerning travelers
-              seeking premium experiences, unmatched service, and thoughtful
-              adventures.
+            We craft personalized dental care for discerning patients seeking 
+            advanced treatments, unmatched comfort, and lasting confidence in every smile.
             </p>
           </div>
         </div>
@@ -23,7 +22,7 @@ const Footer = () => {
             href="mailto:contact@lxtour.com"
             className="flex items-center text-gray-300 hover:text-white"
           >
-            <span>contact@lxtour.com</span>
+            <span>info@thedentalstudio.com</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 ml-2"

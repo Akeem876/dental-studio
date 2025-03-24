@@ -7,9 +7,9 @@ const ContactCTA = () => {
       <div className="bg-gray-100 rounded-2xl overflow-hidden">
         <div className="grid md:grid-cols-2">
           <div className="flex flex-col justify-center p-8 md:p-12">
-            <h2 className="text-3xl font-bold mb-2">Have a Question?</h2>
+            <h2 className="text-3xl font-bold mb-2">Have a Dental Concern?</h2>
             <p className="text-gray-600 mb-8">
-              Our travel experts are ready to assist you in planning your dream vacation.
+            Our expert team is here to guide you toward optimal oral health and your brightest smile.
             </p>
             
             <div className="flex items-center">
@@ -23,9 +23,9 @@ const ContactCTA = () => {
           </div>
           
           <div className="bg-white p-8 md:p-12 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold mb-2">Your Journey Awaits</h2>
+            <h2 className="text-3xl font-bold mb-2">Your Smile Transformation Awaits</h2>
             <p className="text-gray-600 mb-8">
-              Let us craft an extraordinary travel experience tailored just for you.
+            Let us create an extraordinary dental experience tailored just for your unique needs.
             </p>
             
             <button className="bg-blue-800 hover:bg-blue-900 text-white font-medium py-3 px-6 rounded-lg transition-colors self-start">
