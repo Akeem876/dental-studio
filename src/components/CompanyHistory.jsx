@@ -1,6 +1,6 @@
 // src/components/CompanyHistory.jsx
 import React from 'react';
-import coastImage from '../assets/coast-image.jpg';
+import teamImage from '../assets/hero-image.jpg';
 
 const CompanyHistory = () => {
   const stats = [
@@ -10,12 +10,12 @@ const CompanyHistory = () => {
   ];
 
   return (
-    <section className="py-16 px-6 sm:px-12 lg:px-16 max-w-22xl mx-auto">
+    <section className="py-32 px-6 sm:px-12 lg:px-16 max-w-22xl mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img 
-            src={coastImage} 
-            alt="Luxury yachts in a beautiful bay" 
+            src={teamImage} 
+            alt="Team Photo" 
             className="rounded-lg w-full h-auto shadow-lg"
           />
         </div>
