@@ -4,13 +4,13 @@ import coastImage from '../assets/coast-image.jpg';
 
 const CompanyHistory = () => {
   const stats = [
-    { percentage: '81%', label: 'From concept to completion' },
-    { percentage: '95%', label: '24/7 Concierge Service' },
-    { percentage: '100%', label: 'Customer Satisfaction' }
+    { heading: 'Precision-Crafted Smile Designs', details: 'Tailored treatment plans for your unique dental needs' },
+    { heading: 'Comprehensive Care Continuum', details: 'From first consultation to final restoration' },
+    { heading: 'Dedicated Patient Experience', details: 'Where your comfort and satisfaction are always the priority' }
   ];
 
   return (
-    <section className="py-16 px-6 sm:px-12 lg:px-16 max-w-6xl mx-auto">
+    <section className="py-16 px-6 sm:px-12 lg:px-16 max-w-22xl mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img 
@@ -22,19 +22,23 @@ const CompanyHistory = () => {
         
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Crafting Unforgettable Journeys Since 2012
+          Creating Healthy, Beautiful Smiles Since 2012
           </h2>
           <p className="text-gray-600 mb-8">
-            We specialize in crafting bespoke travel experiences, tailored to your unique desires and preferences. Since our inception in 2012, we have been dedicated to creating beautiful journeys that surpass expectations. Our team of travel artisans ensures a seamless execution ensuring that every moment of your trip is nothing short of perfection.
+          At The Dental Studio, we specialize in personalized dental care tailored 
+          to your unique needs and goals. Since 2012, our team has been dedicated to 
+          crafting exceptional patient experiences, ensuring every visit is comfortable, 
+          seamless, and exceeds expectations. Your smile is our passion, 
+          and we take pride in delivering precision, care, and outstanding results.
           </p>
           
           <div className="border-t border-gray-200 pt-8">
-            <h3 className="text-xl font-semibold mb-6">Bespoke Itineraries</h3>
+            <h3 className="text-xl font-semibold mb-6">Bespoke Treatment</h3>
             <div className="grid grid-cols-3 gap-4">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-3xl md:text-4xl font-bold text-blue-700 mb-1">{stat.percentage}</div>
-                  <div className="text-sm text-gray-500">{stat.label}</div>
+                  <div className="text-sm md:text-sm font-bold text-blue-700 mb-1">{stat.heading}</div>
+                  <div className="text-sm text-gray-500">{stat.details}</div>
                 </div>
               ))}
             </div>

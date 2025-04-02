@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero"
 import CompanyHistory from "../components/CompanyHistory"
-import DestinationSection from "../components/DestinationSection"
+import OurStaff from "../components/ourStaff"
 import ServiceSection from "../components/ServiceSection"
 import Testimonials from "../components/Testimonials"
 import ContactCTA from "../components/ContactCTA"
@@ -11,7 +11,7 @@ const HomePage = () => {
         <main>
             <Hero />
             <CompanyHistory />
-            <DestinationSection />
+            <OurStaff />
             <ServiceSection />
             <Testimonials />
             <ContactCTA />
