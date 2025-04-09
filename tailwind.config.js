@@ -18,7 +18,7 @@ module.exports = {
       }
     },
   },
-  plugins: [
+  plugins: [require('@tailwindcss/aspect-ratio'),
     function ({ addUtilities }) {
       const newUtilities = {
         '.text-shadow': {
